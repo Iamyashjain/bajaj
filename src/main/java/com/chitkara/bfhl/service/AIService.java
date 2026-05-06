@@ -35,7 +35,7 @@ public class AIService {
         }
 
         try {
-            String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key=" + apiKey;
+            String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=" + apiKey;
 
             Map<String, Object> requestBody = new HashMap<>();
             Map<String, Object> contents = new HashMap<>();
